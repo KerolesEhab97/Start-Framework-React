@@ -20,10 +20,11 @@ let route = createBrowserRouter([
     element: <Layout />,
     children: [
       { index: true, element: <StartFramework /> },
+      { path: "Start-Framework-React", element: <StartFramework /> },
       { path: "portfolio", element: <Portfolio /> },
       { path: "about", element: <About /> },
       { path: "contact", element: <Contact /> },
-      { path: "ourRecipes", element: <OurRecipes/> },
+      { path: "ourRecipes", element: <OurRecipes /> },
       { path: "*", element: <NotFound /> },
     ],
   },
