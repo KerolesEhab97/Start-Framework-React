@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* ^ ====== Navbar ====== */
+nav ul {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+.active{
+  background-color: #0d9488;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+/* ^ ====== Contact ====== */
+.form-control:focus {
+  box-shadow: unset;
+  border-color: unset;
+}
+/* ^ ====== Portfolio ====== */
+.img .layer {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+.img:hover .layer {
+  opacity: 1;
+  background-color: #0d9488;
+}
+
+/* ^ ====== OurRecipes ====== */
+.recipe img{
+  height: 200px;
+  object-fit: cover;
+}
