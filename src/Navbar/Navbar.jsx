@@ -13,24 +13,32 @@ export default function Navbar() {
       <div className="bg-gray-700 fixed top-0 left-0 right-0 z-50">
         <nav className="container mx-auto p-6 text-white">
           <ul className="flex justify-between items-center pt-2 pl-0 list-none ps-0">
-            <li className="text-3xl font-bold text-white">
+            <li className="text-3xl font-bold text-white w-[40%]">
               <Link to="/">START FRAMEWORK</Link>
             </li>
 
             {/* Desktop Menu */}
-            <div className="hidden md:block w-[45%]">
-              <ul className="flex justify-between pl-0 list-none">
-                <li className="text-base font-bold">
-                  <NavLink to="about">ABOUT</NavLink>
+            <div className="hidden md:block w-[50%]">
+              <ul className="flex justify-between items-center pl-0 list-none">
+                <li className="text-base font-bold ">
+                  <NavLink to="about" className="p-2">
+                    ABOUT
+                  </NavLink>
                 </li>
                 <li className="text-base font-bold">
-                  <NavLink to="portfolio">PORTFOLIO</NavLink>
+                  <NavLink to="portfolio" className="p-2">
+                    PORTFOLIO
+                  </NavLink>
                 </li>
-                <li className="text-base font-bold">
-                  <NavLink to="contact">CONTACT</NavLink>
+                <li className="text-base font-bold ">
+                  <NavLink to="contact" className="p-2">
+                    CONTACT
+                  </NavLink>
                 </li>
-                <li className="text-base font-bold">
-                  <NavLink to="ourRecipes">OUR RECIPIES</NavLink>
+                <li className="text-base font-bold ">
+                  <NavLink to="ourRecipes" className="p-2">
+                    OUR RECIPIES
+                  </NavLink>
                 </li>
               </ul>
             </div>
