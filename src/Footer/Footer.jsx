@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="col-md-4">
               <div>
                 <h2>AROUND THE WEB</h2>
-                <div className="icons d-flex justify-center mt-4 gap-2">
+                <div className="icons d-flex justify-center mt-4 gap-2 mb-2">
                   <div className="border-2 rounded-4xl w-10 h-10 d-flex justify-center align-items-center">
                     <i className="fa-brands fa-facebook"></i>
                   </div>
