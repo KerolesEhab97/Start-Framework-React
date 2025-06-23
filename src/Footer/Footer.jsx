@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <div className=" bg-gray-700">
         <div className="container py-20 text-center text-white">
-          <div className="row">
+          <div className="row ">
             <div className="col-md-4">
               <div>
                 <h2>LOCATION</h2>

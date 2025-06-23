@@ -3,7 +3,7 @@ import myimg from "../assets/images/avataaars.svg";
 export default function StartFramework() {
   return (
     <>
-      <div className="bg-teal-500 min-h-[80vh] flex flex-col items-center justify-center">
+      <div className="bg-teal-500 min-h-[80vh] flex flex-col items-center justify-center pt-8">
         <div className="w-25 text-white">
           <img className="w-100" src={myimg} alt="" />
         </div>

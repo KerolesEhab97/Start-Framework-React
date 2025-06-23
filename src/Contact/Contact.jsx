@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <section className="container h-[80vh] mt-8">
+      <section className="container min-h-[80vh] pb-8 mt-20">
         <p className="font-bold text-4xl text-center text-gray-800">
           CONTACT STCTION
         </p>

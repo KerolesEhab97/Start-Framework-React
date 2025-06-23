@@ -18,11 +18,11 @@ export default function OurRecipes() {
   }, []);
   return (
     <>
-      <section className="container min-h-[80vh] my-8">
+      <section className="container min-h-[80vh] mb-8 mt-20">
         <p className="font-bold text-4xl text-center text-gray-800">
           OUR RECIPIES
         </p>
-        <div className="d-flex align-items-center justify-content-center pb-16">
+        <div className="d-flex align-items-center justify-content-center pb-10">
           <div className="bg-black me-3 w-16 h-1"></div>
           <i className="fa-solid fa-star"></i>
           <div className="bg-black ms-3 w-16 h-1"></div>

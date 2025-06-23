@@ -13,12 +13,12 @@ export default function Navbar() {
       <div className="bg-gray-700 fixed top-0 left-0 right-0 z-50">
         <nav className="container mx-auto p-6 text-white">
           <ul className="flex justify-between items-center pt-2 pl-0 list-none ps-0">
-            <li className="text-3xl font-bold text-white w-[40%]">
+            <li className="text-3xl font-bold text-white w-[30%]">
               <Link to="/">START FRAMEWORK</Link>
             </li>
 
             {/* Desktop Menu */}
-            <div className="hidden md:block w-[50%]">
+            <div className="hidden md:block w-[55%]">
               <ul className="flex justify-between items-center pl-0 list-none">
                 <li className="text-base font-bold ">
                   <NavLink to="about" className="p-2">

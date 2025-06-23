@@ -7,7 +7,7 @@ export default function Portfolio() {
   return (
     <>
       <div>
-        <section className="container min-h-100 my-8">
+        <section className="container min-h-100 mb-8 mt-20">
           <div className="header">
             <p className="font-bold text-4xl text-center text-gray-800">
               PORTFOLIO COMPONENT
